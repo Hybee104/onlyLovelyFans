@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w3.css">
+    <script src="app.js"></script>
+</head>
+          <style>
+               form{
+                    padding: 5%;
+               }
+
+               .sel-input{
+                    padding: 2%;
+                    border-radius: 5px;
+               }
+
+               
+          .inputs{
+              padding-top: 10px;
+              border-radius: 5px;
+          }
+
+          .cards{
+               margin: 10%;
+               background-color: green;
+               color: white;
+          }
+          .card{
+               margin: 10%;
+               background-color: blue;
+               color: white;
+          }
+
+          .btn{
+               background-color: blue;
+               padding: 2%;
+               border-radius: 10px;
+               cursor: pointer;
+          }
+          .P-btn{
+               background-color: green;
+               padding: 2%;
+               border-radius: 10px;
+               cursor: pointer;
+          }
+
+          .cash{
+                margin-left: 10%;
+                color: white;
+                font-size: xx-large;
+                font-weight: bold;
+                font-family: sans-serif;
+                text-decoration: none;
+}
+         
+          </style>
+<body>
+     <center>
+          <h1>Add Payment</h1>
+     </center>
+
+    <div class="w3-card-4 cards">
+      <form action="" class="forms">
+            <center>
+                 <h1 class="cash">Cash App</h1>
+            </center>
+          <span>
+               <label for="">Cash app user Name</label>
+                  <br>
+               <input type="text" id="name" class="inputs" placeholder="">
+          </span>
+          
+          <br><br>
+          <span>
+               <label for="">Cash App</label>
+                  <br>
+                <h1>  $Karma3023 </h1>
+          </span>
+          <br><br>
+          <span>
+               <label for="">Amount  <del>-40%</del></label>
+                  <br>
+               <select class="sel-input" name="" id="amount">
+                      <option value="">Twerking video $10</option>
+                      <option value="">Boobs video $15</option>
+                      <option value="">Pussy video $20</option>
+                      <option value="">Masturbating video $25</option>
+                      <option value="">Stripping off video $35</option>
+                      <option value="">Get All Video $50</option>
+               </select>
+          </span>
+          <br><br>
+                    <button onclick="SendToWhatsapp()" class="w3-btn btn">Submit</button>
+
+      </form>
+    </div>
+
+
+    <div class="w3-card-4 card">
+      <form action="" class="forms">
+            <center>
+                 <h1 class="cash">PayPal</h1>
+            </center>
+          <span>
+               <label for="">PayPal user Name</label>
+                  <br>
+               <input type="text" id="name" class="inputs" placeholder="">
+          </span>
+          
+          <br><br>
+          <span>
+               <label for="">PayPal</label>
+                  <br>
+                <h1>  Tia_bia31@yahoo.com </h1>
+          </span>
+          <br><br>
+          <span>
+               <label for="">Amount  <del>-40%</del></label>
+                  <br>
+               <select class="sel-input" name="" id="amount">
+                      <option value="">Twerking video $10</option>
+                      <option value="">Boobs video $15</option>
+                      <option value="">Pussy video $20</option>
+                      <option value="">Masturbating video $25</option>
+                      <option value="">Stripping off video $35</option>
+                      <option value="">Get All Video $50</option>
+               </select>
+          </span>
+          <br><br>
+                    <button onclick="SendToWhatsapp()" class="w3-btn P-btn">Submit</button>
+
+      </form>
+    </div>
+
+</body>
+</html>

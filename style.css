@@ -1,0 +1,172 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.tittle {
+  color: pink;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.quest {
+  text-align: center;
+}
+
+span {
+  margin-left: 35%;
+}
+
+.btn-black {
+  margin-left: 10%;
+  padding: 2%;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  width: 13%;
+  cursor: pointer;
+}
+
+
+
+.btn-red {
+  padding: 2%;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  border-color: red;
+  width: 13%;
+  cursor: pointer;
+}
+
+.btn-red:hover {
+  font-size: 113%;
+}
+
+.btn-black:hover {
+  font-size: 113%;
+}
+
+.img {
+  margin-left: 30%;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.header {
+  background-color: black;
+}
+
+.marq {
+  height: 30px;
+  width: 92%;
+  border-radius: 3%;
+  background-color: black;
+  margin-left: 20px;
+  color: white;
+}
+
+.prof{
+     border-radius: 50%;
+     margin: 20px;
+}
+
+.name{
+     font-weight: bold;
+     font-size: x-large;
+     font-family: monospace;
+}
+
+.sub{
+    margin: 35px;
+}
+
+.subscribe{
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+   background-color: blue;
+   padding-left: 20px;
+   border-radius: 10px;
+}
+
+.add{
+  font-weight: bold;
+  color: white;
+  display: inline;
+}
+
+.payment{
+  margin-left: 55%;
+}
+
+.master{
+  border-radius: 50%;
+}
+
+.bal{
+  color: white;
+  float: right;
+  margin-right: 29px;
+  margin-top: 15px;
+}
+
+.cont{
+  font-weight: bold;
+  font-size: xxx-large;
+  font-family: sans-serif;
+}
+
+.all-cont{
+   margin-left: 9%;
+   font-family: italic, cursive;
+}
+ 
+.back{
+   margin-left: 6%;
+}
+
+.border{
+   border-radius: 10%;
+}
+
+.download{
+  background-color: blue;
+  padding: 18px;
+  border-radius: 4%;
+  cursor: pointer;
+  margin-right: 80%;
+  color: white;
+}
+
+.amt{
+  margin-left: 10px;
+}
+/* .cards{
+  border: 1px solid black;
+  padding: 4%;
+  margin-right: 5px;
+  border-radius: 7px;
+} */
+
+.tit{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.pay-P{
+  margin-left: 20%;
+  color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: italic;
+  text-decoration: none;
+}
